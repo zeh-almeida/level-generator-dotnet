@@ -23,7 +23,13 @@
 		<TieredPGO>true</TieredPGO>
 		<PublishTrimmed>true</PublishTrimmed>
 		<RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+		<AssemblyName>biome</AssemblyName>
+		<ApplicationIcon>biome.ico</ApplicationIcon>
 	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="biome.ico" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<None Update="BiomeManager.xml">
