@@ -1,0 +1,17 @@
+<FineCodeCoverage>
+	<Enabled>
+		True
+	</Enabled>
+
+	<IncludeReferencedProjects>
+		True
+	</IncludeReferencedProjects>
+
+	<IncludeTestAssembly>
+		False
+	</IncludeTestAssembly>
+
+	<Exclude>
+		[*]ObdData.Consultation.Extraction.Protos.*
+	</Exclude>
+</FineCodeCoverage>
