@@ -17,7 +17,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Documentation", "01 - 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiomeManager", "BiomeManager\BiomeManager.csproj", "{0544C5B2-9A27-4C6C-A240-BC1C799F83BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biomes.Manager", "BiomeManager\Biomes.Manager.csproj", "{0544C5B2-9A27-4C6C-A240-BC1C799F83BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biomes.Model", "Biome.Models\Biomes.Model.csproj", "{58E704D2-66F8-4751-9144-9B5D323489E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorCommons", "GeneratorCommons\GeneratorCommons.csproj", "{C75CCC81-9095-40E3-94FF-BDE28420AEB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{0544C5B2-9A27-4C6C-A240-BC1C799F83BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0544C5B2-9A27-4C6C-A240-BC1C799F83BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0544C5B2-9A27-4C6C-A240-BC1C799F83BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E704D2-66F8-4751-9144-9B5D323489E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E704D2-66F8-4751-9144-9B5D323489E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E704D2-66F8-4751-9144-9B5D323489E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E704D2-66F8-4751-9144-9B5D323489E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75CCC81-9095-40E3-94FF-BDE28420AEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75CCC81-9095-40E3-94FF-BDE28420AEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75CCC81-9095-40E3-94FF-BDE28420AEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75CCC81-9095-40E3-94FF-BDE28420AEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
